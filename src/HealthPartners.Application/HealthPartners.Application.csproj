@@ -10,7 +10,7 @@
 
 
     <ItemGroup>
-      <ProjectReference Include="..\HealthPartners.Domain\HealthPartners.Domain.csproj" />
+        <ProjectReference Include="..\HealthPartners.Domain\HealthPartners.Domain.csproj"/>
     </ItemGroup>
 
 </Project>

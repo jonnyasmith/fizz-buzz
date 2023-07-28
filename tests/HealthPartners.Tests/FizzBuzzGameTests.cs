@@ -25,7 +25,7 @@ public sealed class FizzBuzzGameTests
         var numbers = new List<int> { number };
         var writer = new Action<string>(result => Assert.Equal(expected, result));
         var game = GameBuilder.Build();
-        
+
         game.Play(numbers, writer);
     }
 }

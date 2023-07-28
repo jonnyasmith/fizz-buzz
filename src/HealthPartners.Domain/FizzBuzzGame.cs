@@ -1,27 +1,23 @@
-﻿namespace HealthPartners.Domain;
+﻿using HealthPartners.Domain.Rules;
+
+namespace HealthPartners.Domain;
 
 public sealed class FizzBuzzGame : IFizzBuzzGame
 {
+    private readonly IList<IGameRule> _rules;
+
+    public FizzBuzzGame(IList<IGameRule> rules)
+    {
+        _rules = rules;
+    }
+
     public void Play(IEnumerable<int> numbers, Action<string> writer)
     {
         foreach (var number in numbers)
         {
-            if (number % 15 == 0)
-            {
-                writer(nameof(FizzBuzzResult.FizzBuzz));
-            }
-            else if (number % 3 == 0)
-            {
-                writer(nameof(FizzBuzzResult.Fizz));
-            }
-            else if (number % 5 == 0)
-            {
-                writer(nameof(FizzBuzzResult.Buzz));
-            }
-            else
-            {
-                writer(number.ToString());
-            }
+            var rule = _rules.First(r => r.Applies(number));
+            var result = rule.Result;
+            writer(result);
         }
     }
 }
