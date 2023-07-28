@@ -2,7 +2,7 @@ using HealthPartners.Domain;
 
 namespace HealthPartners.Tests;
 
-public class FizzBuzzGameTests
+public sealed class FizzBuzzGameTests
 {
     [Theory]
     [InlineData(1, "1")]
