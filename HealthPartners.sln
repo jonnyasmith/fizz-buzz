@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPartners.Tests", "tests\HealthPartners.Tests\HealthPartners.Tests.csproj", "{1CE45477-F820-4C83-8AF5-FF93277B1C5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPartners.Application", "src\HealthPartners.Application\HealthPartners.Application.csproj", "{001F0DE2-0CA7-4D02-92F9-C237E42F497D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +27,9 @@ Global
 		{1CE45477-F820-4C83-8AF5-FF93277B1C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CE45477-F820-4C83-8AF5-FF93277B1C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CE45477-F820-4C83-8AF5-FF93277B1C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001F0DE2-0CA7-4D02-92F9-C237E42F497D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001F0DE2-0CA7-4D02-92F9-C237E42F497D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001F0DE2-0CA7-4D02-92F9-C237E42F497D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001F0DE2-0CA7-4D02-92F9-C237E42F497D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
