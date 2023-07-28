@@ -1,6 +1,6 @@
 ﻿namespace HealthPartners.Domain;
 
-public sealed class FizzBuzzGame
+public sealed class FizzBuzzGame : IFizzBuzzGame
 {
     public void Play(IEnumerable<int> numbers, Action<string> writer)
     {
