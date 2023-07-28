@@ -1,4 +1,4 @@
-namespace HealthPartners.Domain;
+namespace HealthPartners.Domain.Game;
 
 public interface IFizzBuzzGame
 {

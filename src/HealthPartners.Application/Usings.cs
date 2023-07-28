@@ -1,1 +1,1 @@
-global using HealthPartners.Domain;
+global using HealthPartners.Domain.Game;

@@ -1,4 +1,4 @@
-using HealthPartners.Domain;
+using HealthPartners.Domain.Game;
 
 namespace HealthPartners.Tests;
 

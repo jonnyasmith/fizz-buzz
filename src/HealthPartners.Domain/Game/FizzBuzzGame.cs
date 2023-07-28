@@ -1,6 +1,6 @@
 ﻿using HealthPartners.Domain.Rules;
 
-namespace HealthPartners.Domain;
+namespace HealthPartners.Domain.Game;
 
 public sealed class FizzBuzzGame : IFizzBuzzGame
 {
