@@ -8,15 +8,15 @@ public sealed class FizzBuzzGame
         {
             if (number % 15 == 0)
             {
-                writer("FizzBuzz");
+                writer(nameof(FizzBuzzResult.FizzBuzz));
             }
             else if (number % 3 == 0)
             {
-                writer("Fizz");
+                writer(nameof(FizzBuzzResult.Fizz));
             }
             else if (number % 5 == 0)
             {
-                writer("Buzz");
+                writer(nameof(FizzBuzzResult.Buzz));
             }
             else
             {
